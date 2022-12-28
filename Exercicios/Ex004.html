@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <style>
+        body{
+            font: 1.5em arial;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        var nome = window.prompt(`Qual seu nome? `)
+        document.write(`Ola, ${nome}! Seu nome tem ${nome.length} letras <br/>`) //Quantos caracteres a string tem
+        document.write(`Seu nome em maiúculas é ${nome.toUpperCase()} <br/>`)//tudo para maiusculas
+        document.write(`Seu nome em minuscúlas é ${nome.toLowerCase()}`)//tudo para minusculas
+    </script>
+</body>
+</html>
