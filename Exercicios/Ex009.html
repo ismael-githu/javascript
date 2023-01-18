@@ -9,7 +9,7 @@
 <body>
     <p>Clique no botão para exibir a caixa de confirmação.</p>
     <button onclick="funcao1()">Clique aqui</button>
-    <p id="demo"></p>
+    <h1 id="demo"></h1>
     <script>
         function funcao1(){
             var x;
@@ -22,7 +22,7 @@
             {
                 x='você precionou cancelar'
             }
-            document.getElementById('demo').innerHTML=x
+            document.querySelector('#demo').innerHTML=x
         }
     </script>
 </body>
